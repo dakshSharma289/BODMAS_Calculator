@@ -157,12 +157,10 @@ int main(){
 
         cin >> question;
 
-        cout << endl;
-
         while(notNumber(question)){
             question = resolveInnermostBracket(question);
         }
-        cout << endl << question << endl;;
+        cout << endl << question << endl << endl;
     }
     return 0;
 }
